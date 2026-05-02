@@ -15,7 +15,7 @@ To ensure the dimensions fit your doorway perfectly, focus on the following para
 
 |   |   |   |
 |---|---|---|
-|Group|参数|Description|
+|Group|Parameter|Description|
 |1. Doorway Physical Dimensions (mm)]|door_w|Real-world **WALL OPENING** width (the hole in the wall).|
 ||door_h|Real-world **WALL** **OPENING** height.<br><br>> **💡 Tip:** If you have installed flooring, reduce `door_h` slightly (by the thickness of the floor) to prevent the door from being too tall to fit.|
 ||wall_t_real|Real-world **wall thickness**. Unlike the 'offset' parameter in the floor plan (which is half the thickness), this requires the **full thickness** (e.g., if the wall is 240mm, enter 240).|
@@ -27,9 +27,9 @@ To ensure the dimensions fit your doorway perfectly, focus on the following para
 
 The position of the simple door handles is controlled by these parameters:
 
-- **`handing`****:** Sets the handle direction from the **Exterior** perspective. The interior handle will automatically mirror this to ensure they align when the door is assembled.
+- **`handing`**: Sets the handle direction from the **Exterior** perspective. The interior handle will automatically mirror this to ensure they align when the door is assembled.
     
-- **`handle_h_real`****:** The real-world height of the handle from the ground (mm).
+- **`handle_h_real`**: The real-world height of the handle from the ground (mm).
     
 
   
@@ -52,7 +52,7 @@ The total thickness of the embedded parts is automatically calculated to equal t
 
 - **Visual Details**
     
-    - gap_d**:** Controls the depth of the decorative grooves on the door surface.
+    - **gap_d**: Controls the depth of the decorative grooves on the door surface.
         
     
     |   |   |

@@ -7,17 +7,12 @@ This code is part of my Floor Plan Generator project on MakerWorld. For more det
 xxxx
 
 To get started, you will need to download `OpenSCAD`. Simply search for "OpenSCAD" to find the official website and download links.
-Once installed, you can obtain the code in two ways:
-
-1. The ZIP file provided in the project attachments.
-2. The GitHub link [Insert Link Here].
-
 
 # General Workflow
 
 The program requires standardized **SVG** **files** to determine the coordinates of walls, doors, and windows.
 
-- **If you know** **SVG****:** Follow the drawing specifications below.
+- **If you know SVG**: Follow the drawing specifications below.
     
 - **If you are new to SVG**: **Send this tutorial to an AI** ; it can easily teach you the basic skills needed for this project.
 
@@ -164,7 +159,9 @@ On the same canvas, draw **`rectangles`** where doors are located (light green r
 
 ![](./assets/tutorial/13.png)
 
-> **Important:** The thickness of the rectangle must be significantly wider than the wall it is cutting through:
+> **IMPORTANT:** These rectangles MUST be converted to Paths (e.g., in Inkscape, use Path > Object to Path) for the script to recognize the openings correctly.
+
+> **IMPORTANT:** The thickness of the rectangle must be significantly wider than the wall it is cutting through:
 
 |   |   |
 |---|---|
@@ -173,9 +170,9 @@ On the same canvas, draw **`rectangles`** where doors are located (light green r
 
 **Key Parameters:**
 
-- **`use_doors_1`****:** Check to enable.
+- **`use_doors_1`**: Check to enable.
     
-- **`doors_1_h`****:** Height of the door opening (Default `2100mm`).
+- **`doors_1_h`**: Height of the door opening (Default `2100mm`).
 
 My SVG Layouts:
 
@@ -195,7 +192,7 @@ Final Rendered Result:
 
 Similar to doors, use rectangles.
 
-- **`win_x_z`****:** This parameter defines the distance from the floor to the bottom of the window (Sill height).
+- **`win_x_z`**: This parameter defines the distance from the floor to the bottom of the window (Sill height).
     
 
 |   |   |   |
