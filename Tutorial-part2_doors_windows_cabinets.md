@@ -124,8 +124,11 @@ Use `h_grids` and `v_grids` to add horizontal or vertical grids to the **Outer**
 
 # **Cabinets**
 
-This module allows you to create modern, minimalist cabinets with custom grid layouts using a coordinate-based array.
+This module allows you to create modern, minimalist cabinets with custom grid layouts using a coordinate-based array:
+![](./assets/tutorial2/27.png)
 
+
+You can directly replace the panel_map array in the code box on the webpage with your custom layout, then click the "Generate" button to see your design
 #### **Grid** **Mapping Rules (****`panel_map`****)**
 
 The cabinet is defined by an array where you specify the behavior of each cell. **Crucially, the array is indexed starting from the bottom-left corner of the cabinet.**
