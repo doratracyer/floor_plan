@@ -2,7 +2,10 @@
 3D-printable floor plan generator: Convert SVG layouts into 3D models.
 
 # Required Software
-Due to SVG import restrictions on MakerWorld's cloud tools, this specific script for floor plans must be run locally (though the scripts for doors and windows are available online).
+This code is part of my Floor Plan Generator project on MakerWorld. For more details and to access the full project, please visit the link below:
+
+xxxx
+
 To get started, you will need to download `OpenSCAD`. Simply search for "OpenSCAD" to find the official website and download links.
 Once installed, you can obtain the code in two ways:
 
