@@ -153,8 +153,8 @@ The cabinet is defined by an array where you specify the behavior of each cell. 
 |   |   |   |
 |---|---|---|
 |panel_map|Model|Printed Result|
-|// Standard side-by-side doors. [ [[1,1],[1,1],[1,1],[1,1],[1,1]] ]|![](./assets/tutorial2/13.png)|![](./assets/tutorial2/14.png)|
-|[ // Row 1: The bottom-most section of the cabinet [[1, 1]], // Row 2: The section directly above the bottom row [[1, 1]], ]|![](./assets/tutorial2/15.png)|![](./assets/tutorial2/16.png)|
+|// Standard side-by-side doors. <br>[ [[1,1],[1,1],[1,1],[1,1],[1,1]] ]|![](./assets/tutorial2/13.png)|![](./assets/tutorial2/14.png)|
+|[ <br>// Row 1: The bottom-most section of the cabinet [[1, 1]], // Row 2: The section directly above the bottom row [[1, 1]], ]|![](./assets/tutorial2/15.png)|![](./assets/tutorial2/16.png)|
 |[ // Row 1: Two side-by-side doors at the bottom (Each 1 col wide, 4 rows high) [[1, 4], [1, 4]], // Rows 2-4: Placeholders for the height of the bottom doors 9, 9, 9, // Row 5: A horizontal divider/door (Spans 2 columns, 1 row high) [[2, 1], 9], // Row 6: Another horizontal divider/door (Spans 2 columns, 1 row high)[cite: 1] [[2, 1], 9], // Row 7: A large hollow/open space (Spans 2 columns, 4 rows high)[cite: 1] [[2, 4, 0], 9], // Rows 8-10: Placeholders for the height of the hollow space[cite: 1] 9, 9, 9 ]|![](./assets/tutorial2/17.png)|![](./assets/tutorial2/18.png)|
 |[ [[1,4],[1,3],[1,3],[1,3]], 9,9, [9,[1,4],[1,4],[1,4]], [[1,3],9,9,9], 9,9, [[4,1],9,9,9] ]![](./assets/tutorial2/19.png)|-|
 |[ [[2,1],9,[1,3],[1,3]], [[2,1],9,9,9], [[2,1],9,9,9], [[4,6,0],9,9,9], 9,9,9,9,9 ]|![](./assets/tutorial2/20.png)|![](./assets/tutorial2/21.png)|
