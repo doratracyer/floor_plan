@@ -4,7 +4,8 @@
 # Required Software
 This code is part of my Floor Plan Generator project on MakerWorld. For more details and to access the full project, please visit the link below:
 
-xxxx
+[Generative 3D Floor Plans @Makerworld](https://makerworld.com/en/models/2746484-generative-3d-floor-plans#profileId-3046420)
+
 
 To get started, you will need to download `OpenSCAD`. Simply search for "OpenSCAD" to find the official website and download links.
 
