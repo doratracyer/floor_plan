@@ -90,7 +90,7 @@ Files must <u>follow these exact names</u> for the program to recognize them:
     
 - **F6 (Render):** Renders the final high-quality model. Required before exporting.
     
-- **F7 (Export as** **STL****):** Saves the file for your 3D printer. **Ensure you Render (F6) first!**
+- **F7 (Export as** **STL**): Saves the file for your 3D printer. **Ensure you Render (F6) first!**
     
 
   
@@ -123,7 +123,7 @@ In your drawing software (e.g., Inkscape), use the **Bezier Curve** tool to draw
 Exterior wall preview (F5) in OpenSCAD:
 ![](./assets/tutorial/8.png)
 
-Once you preview with F5, you can export via F6 and <u>verify the size in your slicer</u> (e.g., BambuStudio).
+Once you preview with F5, you can export via F6 & F7 and <u>verify the size in your slicer</u> (e.g., BambuStudio).
 
 ### 2. Internal Walls (`walls_x.svg`)
     

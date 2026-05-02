@@ -21,18 +21,18 @@ To ensure the dimensions fit your doorway perfectly, focus on the following para
 ||wall_t_real|Real-world **wall thickness**. Unlike the 'offset' parameter in the floor plan (which is half the thickness), this requires the **full thickness** (e.g., if the wall is 240mm, enter 240).|
 |2. Scale and Tolerance|scale_f|Must match the `scale_f` value used in your `floor_plan`.|
 ||printer_tol|Controls printing tolerance. If the door is too tight for the opening at the default 0.2mm, increase this value.|
-
+<br>
 - **Door Handles**
     
 
 The position of the simple door handles is controlled by these parameters:
 
-- **`handing`**: Sets the handle direction from the **Exterior** perspective. The interior handle will automatically mirror this to ensure they align when the door is assembled.
+1. **`handing`**: Sets the handle direction from the **Exterior** perspective. The interior handle will automatically mirror this to ensure they align when the door is assembled.
     
-- **`handle_h_real`**: The real-world height of the handle from the ground (mm).
+2. **`handle_h_real`**: The real-world height of the handle from the ground (mm).
     
 
-  
+<br><br>  
 
 - **Brim** **(Frame) Settings**
     
@@ -49,6 +49,7 @@ Group 5 parameters control the "brim" (the door frame). You can use the `remove`
 The total thickness of the embedded parts is automatically calculated to equal the wall thickness minus `printer_tol`, regardless of brim settings.
 
 
+<br>
 
 - **Visual Details**
     
@@ -68,6 +69,7 @@ The total thickness of the embedded parts is automatically calculated to equal t
     |leaf_indent=0.6|![](./assets/tutorial2/7.png)|
     |leaf_indent=1.6|![](./assets/tutorial2/8.png)|
     
+<br><br>
 
 # Windows
 
@@ -121,6 +123,8 @@ Use `h_grids` and `v_grids` to add horizontal or vertical grids to the **Outer**
 
 ![](./assets/tutorial2/13.png)
   
+  
+<br><br>
 
 # **Cabinets**
 
@@ -129,7 +133,7 @@ This module allows you to create modern, minimalist cabinets with custom grid la
 
 
 You can directly replace the panel_map array in the code box on the webpage with your custom layout, then click the "Generate" button to see your design
-#### **Grid** **Mapping Rules (****`panel_map`****)**
+#### **Grid Mapping Rules (`panel_map`)**
 
 The cabinet is defined by an array where you specify the behavior of each cell. **Crucially, the array is indexed starting from the bottom-left corner of the cabinet.**
 
@@ -149,7 +153,7 @@ The cabinet is defined by an array where you specify the behavior of each cell. 
   [[Row 3, Col 1], [Row 3, Col 2]]  // Top Row
 ]
 ```
-#### **More Example Configurations**
+**More Example Configurations**
 
 > If you don't want to write the arrays yourself, you can send a reference image to an AI and provide mapping rules and these examples for context:
 
