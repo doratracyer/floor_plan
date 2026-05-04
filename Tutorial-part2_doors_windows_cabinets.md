@@ -22,6 +22,7 @@ To ensure the dimensions fit your doorway perfectly, focus on the following para
 |2. Scale and Tolerance|scale_f|Must match the `scale_f` value used in your `floor_plan`.|
 ||printer_tol|Controls printing tolerance. If the door is too tight for the opening at the default 0.2mm, increase this value.|
 <br>
+
 - **Door Handles**
     
 
