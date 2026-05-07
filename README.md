@@ -102,7 +102,7 @@ Files must <u>follow these exact names</u> for the program to recognize them:
 ### 1. Exterior Outline (`walls_outline.svg`)
     
 
-In your drawing software (e.g., Inkscape), use the **Bezier Curve** tool to draw a <u>**closed path**</u> along the center line of your exterior walls using <u>real-world dimensions (mm)</u>.
+In your drawing software (e.g., Inkscape), use the **Bezier Curve** tool to draw a **closed path** along the center line of your exterior walls using **REAL-WORLD DIMENSIONS** (mm).
 
   
 
