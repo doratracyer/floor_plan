@@ -40,6 +40,20 @@ walls_2_file = "walls_2.svg";
 wall_2_height = 2800; 
 wall_2_offset = 60; 
 
+// --- Partition Walls (Walls 3) ---
+use_walls_3 = false; 
+walls_3_file = "walls_3.svg"; 
+wall_3_height = 2800; 
+wall_3_offset = 60; 
+
+// --- Partition Walls (Walls 4) ---
+use_walls_4 = false; 
+walls_4_file = "walls_4.svg"; 
+wall_4_height = 2800; 
+wall_4_offset = 60; 
+
+
+
 /* [4. Door Openings] */
 // --- Standard Interior Doors (Doors 1) ---
 use_doors_1 = false; 
@@ -124,6 +138,18 @@ module build_house() {
                     linear_extrude(height = wall_2_height * scale_f)
                         scale([scale_f, scale_f, 1])
                             offset(delta = wall_2_offset) import(walls_2_file);
+                }
+                if (use_walls_3) {
+                    color("LightGray")
+                    linear_extrude(height = wall_3_height * scale_f)
+                        scale([scale_f, scale_f, 1])
+                            offset(delta = wall_3_offset) import(walls_3_file);
+                }
+                if (use_walls_4) {
+                    color("LightGray")
+                    linear_extrude(height = wall_4_height * scale_f)
+                        scale([scale_f, scale_f, 1])
+                            offset(delta = wall_4_offset) import(walls_4_file);
                 }
             }
 
@@ -220,6 +246,8 @@ module draw_floor_sticker() {
                     // Subtract Interior Walls: Expanded by the physical tolerance to prevent buckling
                     if (use_walls_1) offset(delta = wall_1_offset + _sticker_tol_svg) import(walls_1_file);
                     if (use_walls_2) offset(delta = wall_2_offset + _sticker_tol_svg) import(walls_2_file);
+                    if (use_walls_3) offset(delta = wall_3_offset + _sticker_tol_svg) import(walls_3_file);
+                    if (use_walls_4) offset(delta = wall_4_offset + _sticker_tol_svg) import(walls_4_file);
                 }
                 
                 // Part 2: Doorway Footprints (Extends floor coverage into doorways)
