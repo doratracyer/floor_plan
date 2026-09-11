@@ -1,7 +1,7 @@
 # Floor Plan Customization
 3D-printable floor plan generator: Convert SVG layouts into 3D models.
 
-(This project provides a completely free workflow. If you prefer a more streamlined and convenient way to create your house model, you can also try the freemium app I developed later: [FloorPlan23D.xyz](https://floorplan23d.xyz/)
+(This project provides a completely free workflow. If you prefer a more streamlined and convenient way to create your house model, you can also try the freemium app I developed: [FloorPlan23D.xyz](https://floorplan23d.xyz/))
 
 # Required Software
 This code is part of my Floor Plan Generator project on MakerWorld. For more details and to access the full project, please visit the link below:
